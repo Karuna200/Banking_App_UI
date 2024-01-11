@@ -1,0 +1,127 @@
+
+.main--content {
+    position: relative;
+    background: #e9f5f5;
+    width: 100%;
+    padding: 1rem;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background: #fff;
+    border-radius: 10px;
+    padding: 10px 2rem;
+    margin-bottom: 1rem;
+
+}
+.header--title {
+    color: rgba(113,99,186,255);
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    width: 300px;
+    display: none;
+}
+
+.card h3 {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #fd8787;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #09b7d6;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+.li_item{
+    list-style-type: none;
+}
+.elg{
+    margin-bottom: 10px;
+}
+
+.card#transactionsCard {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .card#transactionsCard h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  thead {
+    background-color: #f5f5f5;
+  }
+  
+  thead th {
+    padding: 12px;
+    text-align: left;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #e7dfdf;
+  }
+  
+  tbody td {
+    padding: 12px;
+  }
+  
+  tbody tr:hover {
+    background-color: #e0e0e0;
+  }
+  
+  
+  td,
+  th {
+    padding: 10px;
+    border-radius: 2px;
+
+  }
+ 
+  
